@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 9, 2020, 12:25:52 AM
+    Author     : Murad Computer
+*/
+
+body {
+    font-family: 'Verdana', sans-serif;
+    box-sizing: border-box;
+    background-image: url(../img/bg2.png);
+}
+
+a{
+	text-decoration:none;
+}
+
+/*Only starting name and buttons css */
+.name{
+	font-family: calibri;
+	width: 500px;
+	position: absolute;
+	left: 11%;  /*right = maximum percentage or left = minimum percentage */
+	top: 48%;
+	transform: translate(-20%,-50%);
+}
+.name h2{
+	font-family:Verdana;
+	font-size: 60px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+.name h1{
+	font-family:Verdana;
+	font-size: 50px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+
+/* Lets start box*/
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+h1 {text-align: center;
+  color: #fff;
+}
+
+h2 {text-align: center;
+  color: #fff;
+  margin: 50px; /* task under text up down*/
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.regbox{
+    width: 780px; /* box left right size */
+    height: 450px;
+    background: #2f3542;
+    margin: 0;
+    padding: 30px;
+    top: 50%;
+    left: 70%;
+    color: #fff;
+    border-radius: 15px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
+
+.avatar {
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 135px;
+    top: -22%;
+    position: absolute;
+    left: calc(50% - 75px);
+    border-radius: 50%;
+}
+/* Qr image cutomization */
+.img_qr{
+    width: 165px;
+    height: 165px;
+    margin: 10px 265px;
+}
+
+.button {border-radius: 20px;}
+
+.button {
+  background-color: #17d1ac;
+  border: none;
+  color: #000;
+  padding: 15px 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-bottom: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+   margin: 35px 200px;
+}
+    
+/* Task */
+.taskcontainer { 
+    width: 70%; 
+    height: 55%; /* submit button up down coding */
+    margin: 0 auto;
+}
+
+
+/* handle task width hight */
+.taskbox{
+    width: 550px; /* box left right size */
+    height: 230px;
+    background: #fff;
+    margin: 0;
+    padding: 20px; /* task up down */
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    border-radius: 25px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    
+}

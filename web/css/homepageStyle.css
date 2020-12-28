@@ -1,0 +1,151 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 11, 2020, 6:12:38 PM
+    Author     : Murad Computer
+*/
+
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin:0px;
+	padding:0px;	
+}
+
+a{
+	text-decoration:none;
+}
+#main{
+	padding:30px 50px;
+	position:relative;
+	width:100%;
+	height: 100vh;
+	box-sizing: border-box;
+	background-size: 1330px;
+	background-position: right bottom;
+	background-repeat: no-repeat;
+        background-image: url(../img/homebg.png);
+	background-color: #edf1fd;
+}
+nav{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 5px;
+	font-family: calibri;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width:100%;
+	box-sizing: border-box;
+	padding: 10px 50px;
+	background-color:#F4F7FF;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+	z-index: 1;
+}
+
+
+.lang{
+	color:#292929;
+}
+.logo{
+	font-size: 28px;
+	font-weight: bold;
+	color:#292929;
+	font-family:Verdana;
+}
+.toggle{
+	display: none;
+}
+.active a,
+.menu li a:hover{
+	background-color:#292929;
+	color:#FFF!important;
+	font-weight: bold;
+	transition: all ease 0.4s;
+}
+.name{
+	font-family: calibri;
+	width: 500px;
+	position: absolute;
+	left: 20%;
+	top: 50%;
+	transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),.name .details{
+	color:#6c707c;
+	font-size: 16px;
+}
+.name h2{
+	font-family:Verdana;
+	font-size: 35px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+.name h1{
+	font-family:Verdana;
+	font-size: 56px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+
+.cv-btn{
+	width:200px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #17d1ac;
+	color:#FFFFFF;
+	padding: 2px 35px;
+	margin: 30px 1px;
+}
+.cv-btn:hover{
+	background-color: #131313;
+	transition: all ease 0.5s;
+}
+
+.cv-btn1{
+	width:200px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #17d1ac;
+	color:#FFFFFF;
+	padding: 2px 35px;
+	margin: 10px 65px;
+}
+.cv-btn1:hover{
+	background-color: #131313;
+	transition: all ease 0.5s;
+}
+
+
+
+.social{
+	position: absolute;
+	left: 50px;
+	bottom: 50px;
+	display: flex;
+
+}
+.social a{
+	margin: 6px 12px;
+
+}
+.social i{
+	color:rgba(18,17,17,0.40);
+	font-size: 14px;
+}
+.social a:hover i{
+	color:#17d1ac;
+	transition: all ease 0.5s;
+}
